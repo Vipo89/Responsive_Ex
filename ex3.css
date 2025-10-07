@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 219, 202);
+}
+.housegrid{
+    display: grid;
+    grid-template-columns: 1fr;
+  margin: 1rem;
+   justify-items: center;
+}
+.housegrid h2{
+
+    border-bottom: 4px solid rgb(100, 107, 63);
+    border-radius: 9px;
+}
+img{
+    width: 25rem;
+    border-radius: 15px;
+}
+
+.house_section_grid{
+display: grid;
+grid-template-columns: 1fr;
+justify-items: center;
+}
+
+@media (min-width:768px){
+    .housegrid{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5625rem;
+    }
+}
