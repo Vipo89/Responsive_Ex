@@ -1,0 +1,63 @@
+.prescard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start   ;      
+  justify-content: flex-start;
+  background-color: rgb(167, 154, 154);
+  border: 2px solid grey;
+  border-radius: 15px;
+  width: 85%;
+  padding: 1rem;
+  gap: 1rem; 
+  margin: 0 auto                 
+}
+
+.meimg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top left;
+  display: block;
+}
+.description_grid{
+    display: grid;
+    padding: 0.5rem;
+    justify-content: center;
+
+}
+.prescard h1{
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+      white-space: nowrap;
+}
+.prescard h2{
+    color: black;
+    font-size: 1.5rem;
+}
+.prescard p {
+  
+    font-size: 1rem;
+    color: rgb(12, 2, 2);
+}
+
+.img {
+  width: 62.25rem;
+  height: auto; 
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width:767px){
+.prescard{
+   grid-template-columns: 1fr;
+}
+}
+@media (max-width:500px){
+.prescard h1{
+   font-size: 1rem;
+}
+.prescard h2{
+    font-size: 0.8rem;
+}
+}
