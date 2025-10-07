@@ -5,7 +5,7 @@
   justify-content: flex-start;
   background-color: rgb(167, 154, 154);
   border: 2px solid grey;
-  border-radius: 15px;
+  border-radius: .9375rem;
   width: 85%;
   padding: 1rem;
   gap: 1rem; 
@@ -13,8 +13,8 @@
 }
 
 .meimg {
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
   border-radius: 50%;
   object-fit: cover;
   object-position: top left;

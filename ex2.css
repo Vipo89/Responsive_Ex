@@ -1,0 +1,21 @@
+.navmenu{
+    display: grid;
+  grid-template-columns: 1fr;
+    background-color: aquamarine;
+    width: 100%;
+ justify-items: center;
+ gap: .9375rem;
+}
+
+.navmenu a{
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: .9375rem;
+    border: .1875rem solid rgb(151, 253, 219);
+    background-color: rgb(104, 211, 175);
+}
+@media (min-width:768px){
+    .navmenu{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
