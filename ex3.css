@@ -19,7 +19,7 @@ h1{
     border-bottom: 4px solid rgb(100, 107, 63);
     border-radius: 9px;
 }
-img{
+.img{
     width: 25rem;
     border-radius: 15px;
 }
@@ -35,4 +35,13 @@ justify-items: center;
         grid-template-columns: 1fr 1fr;
         gap: 1.5625rem;
     }
+}
+
+@media (min-width:1440px){
+ .img{
+    width: 40rem;
+ }
+ p{
+    font-size: 2rem;
+ }
 }
