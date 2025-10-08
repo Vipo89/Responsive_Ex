@@ -39,7 +39,7 @@ justify-items: center;
 
 @media (min-width:1440px){
  .img{
-    width: 40rem;
+    width: 80%;
  }
  p{
     font-size: 2rem;
